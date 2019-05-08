@@ -104,7 +104,7 @@ p5.prototype._normalizeArcAngles = function(
  * stop, the arc will be drawn and filled as an open pie segment. If a mode parameter is provided, the arc
  * will be filled like an open semi-circle (OPEN) , a closed semi-circle (CHORD), or as a closed pie segment (PIE). The
  * origin may be changed with the <a href="#/p5/ellipseMode">ellipseMode()</a> function.<br><br>
- * The arc is always drawn clockwise from wherever start falls to wherever stop falls on the ellipse.
+ * The arc is always drawn clockwise from wherever start falls to wherever stop falls on the ellipse. WHAT IS GOING ON HERE!?
  * Adding or subtracting TWO_PI to either angle does not change where they fall.
  * If both start and stop fall at the same place, a full ellipse will be drawn.
  *
